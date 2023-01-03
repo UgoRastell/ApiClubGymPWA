@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/LibreBaskerville-Regular.ttf);
+}
+
+* {
+  list-style-type: none;
+}
+body {
+  background: #004675;
+  color: white;
+  text-align: center;
+  font-family: "font-1", cursive;
+}
+h1 {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  margin: 40px 10px 40px;
+}
+.result-container {
+  margin: 0 auto;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: auto;
+  max-width: 1400px;
+}
+li {
+  max-width: 400px;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+h2 {
+  margin: 10px 0 25px;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  font-size:12px;
+}
