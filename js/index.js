@@ -1,4 +1,4 @@
-fetch("https://127.0.0.1:8000/api/post/")
+fetch("https://127.0.0.1:8000")
   .then(response => response.json())
   .then(data => {
     let output = "";
